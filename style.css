@@ -14,6 +14,7 @@ body{
 
 	h2{
 		font-size: 185%;
+		clear: left;
 		border-left:15px solid #668800;
 		//border-top: 1px solid #000000;
 		//padding-left: 10px;
@@ -39,7 +40,7 @@ body{
 		text-align: right;
 		border-top: 1px solid #000000;
 		padding-top: 10px;
-		clear: left;
+		
 	}
 	
 	table {
@@ -63,8 +64,9 @@ body{
 		float: left;
 		margin-right:20px;
 		margin-bottom:50px;
-
-	}
+		}
+/*
+	
 	ul{
 		background-color: #88aa00;
 		padding: 10px 20px;
@@ -86,4 +88,43 @@ body{
 	li a:hover{
 		color: #000000;
 		text-decoration: none;
+	}
+	*/
+	ul{
+		list-style-type: none;
+		margin: 5px 0;
+		padding: 0;
+		font-size: 12px;
+		overflow: hidden;
+		background-color: #60aa00;
+	}
+	li {
+		float: left;
+		margin-right:0px;
+		width: 100px;
+		text-align: center;
+		border-right: solid 1px #ffffff;
+	}
+	li a{
+		display: block;
+		padding-top: 15px;
+		padding-bottom: 10px;
+		border-bottom:solid 5px transparent;
+	}
+
+	li a:link{
+		color: #ffffff;
+		text-decoration: none;
+	}
+
+	li a:visited{
+		color: #f03030;
+		text-decoration: none;
+	}
+
+	li a:hover{
+		color: #000000;
+		text-decoration: none;
+		border-bottom: solid 5px #cc9900;
+
 	}
