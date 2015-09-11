@@ -8,13 +8,13 @@ body{
 	#wrap{
 		width: 770px;
 		margin: 0 auto;
-		text-align: left;
+		text-align:left;
 
 	}
 
 	h2{
 		font-size: 185%;
-		clear: left;
+		clear:left;
 		border-left:15px solid #668800;
 		//border-top: 1px solid #000000;
 		//padding-left: 10px;
@@ -26,7 +26,7 @@ body{
 		padding: 5px;
 		border: 1px solid #668800;
 		font-size: 154%;
-		clear: left;
+		clear:left;
 	}
 
 	h4{
@@ -36,11 +36,16 @@ body{
 
 	address{
 		font-size: 85%;
-		font-style: normal;
-		text-align: right;
+		font-style:normal;
+		text-align:right;
 		border-top: 1px solid #000000;
 		padding-top: 10px;
+<<<<<<< HEAD
 		clear: left;
+=======
+		clear:left;
+		
+>>>>>>> gh-pages
 	}
 	
 	table {
@@ -49,8 +54,8 @@ body{
 	}
 
 	th{
-		border: 1px solid #999999;
-		padding: 10px ;
+		border:1px solid #999999;
+		padding:10px;
 		background-color: #cccccc;
 
 	}
