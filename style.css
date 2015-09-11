@@ -26,7 +26,7 @@ body{
 		padding: 5px;
 		border: 1px solid #668800;
 		font-size: 154%;
-		clear: left;
+		clear-left;
 	}
 
 	h4{
@@ -40,6 +40,7 @@ body{
 		text-align: right;
 		border-top: 1px solid #000000;
 		padding-top: 10px;
+		clear-left;
 		
 	}
 	
